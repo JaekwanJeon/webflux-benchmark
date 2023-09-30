@@ -65,7 +65,7 @@ Thread가 16개에서 28개로 상승하는 것을 확인할 수 있다.
 ### (2) webFlux + R2DBC vs webMVC + JDBC
 
 #### webMVC JDBC
-Thread가 32개에서 322개로 상승하는 것을 확인할 수 있다.
+Thread가 32개에서 223개로 상승하는 것을 확인할 수 있다.
 ![image](https://github.com/JaekwanJeon/webflux-benchmark/assets/3446997/42ffe455-cdc6-45a3-9842-d16c54ef005e)
 1개 처리 평균 268msec가 걸렸다.
 ![image](https://github.com/JaekwanJeon/webflux-benchmark/assets/3446997/a0344ea8-afa5-4d61-add4-6463a9b85df4)
@@ -80,7 +80,7 @@ Thread가 39개에서 52개로 상승하는 것을 확인할 수 있다.
 
 ### (1) webFlux webClient vs webMVC RestTemplate 결과
 예상대로 WebClient가 적은 수의 쓰레드로 높은 성능을 보였다.
-염두에 둘 점은 WebMVC가 233개의 쓰레드 풀이 줄어들기 전에 실행하면 WebClient와 비교해서 거의 비슷하거나
+염두에 둘 점은 WebMVC가 223개의 쓰레드 풀이 줄어들기 전에 실행하면 WebClient와 비교해서 거의 비슷하거나
 오히려 높은 성능을 보이기도 했다.
 
 ### (2) webFlux + R2DBC vs webMVC + JDBC
