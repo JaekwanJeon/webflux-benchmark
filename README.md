@@ -51,7 +51,7 @@ http://localhost:8081/mvc
 
 
 #### RestTemplate 
-Thread가 32개에서 233개로 상승하는 것을 확인할 수 있다.
+Thread가 32개에서 223개로 상승하는 것을 확인할 수 있다.
 ![image](https://github.com/JaekwanJeon/webflux-benchmark/assets/3446997/c1ebcc1a-e263-481f-a400-f03f4ba99dac)
 1개 처리 평균 607msec가 걸렸다.
 ![image](https://github.com/JaekwanJeon/webflux-benchmark/assets/3446997/cd45268d-809a-42c5-99fa-961978c267de)
