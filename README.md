@@ -62,7 +62,7 @@ Thread가 16개에서 28개로 상승하는 것을 확인할 수 있다.
 1개 처리 평균 142msec가 걸렸다.
 ![image](https://github.com/JaekwanJeon/webflux-benchmark/assets/3446997/4596586c-f289-4efb-a9fd-bec395c84bef)
 
-### (2) webFlux + R2DBC vs webMVC JDBC
+### (2) webFlux + R2DBC vs webMVC + JDBC
 
 #### webMVC JDBC
 Thread가 32개에서 322개로 상승하는 것을 확인할 수 있다.
@@ -83,7 +83,7 @@ Thread가 39개에서 52개로 상승하는 것을 확인할 수 있다.
 염두에 둘 점은 WebMVC가 233개의 쓰레드 풀이 줄어들기 전에 실행하면 WebClient와 비교해서 거의 비슷하거나
 오히려 높은 성능을 보이기도 했다.
 
-### (2) webFlux + R2DBC vs webMVC JDBC
+### (2) webFlux + R2DBC vs webMVC + JDBC
 webFlux + R2DBC에서 의외의 결과가 나왔다.
 event loop 사이즈나 R2DBC Thread pool로 튜닝이 가능하다고 해서 조정해 보았으나 좋은 결과를 확인하지 못했다.
 레퍼런스도 부족하고 경험도 부족해서 R2DBC를 실무에 도입하기는 조금 시기상조로 판단된다.
