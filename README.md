@@ -7,14 +7,17 @@
     password: admin
 
 ### create
+```
 create table random_number
 (
-    r_number double precision,
-    id serial not null
-        constraint random_number_pk
-            primary key
+     r_number double precision,
+     id serial not null<
+     constraint random_number_pk
+        primary key
 );
-
+```
 ### insert
+```
 insert into random_number(r_number)
-SELECT random() from generate_series(1, 5);
+    SELECT random() from generate_series(1, 5);
+```
