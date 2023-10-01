@@ -30,7 +30,8 @@ springwebfluxr2dbc : WebFlux + R2DBC
 ```
 ## 3. API
 
-![image](https://github.com/JaekwanJeon/webflux-benchmark/assets/3446997/c989f502-ce2e-4028-b210-f57d72b3d820)
+!![image](https://github.com/JaekwanJeon/webflux-benchmark/assets/3446997/362ae979-7513-4cc5-bc3e-2b40d27505b9)
+
 
 ### (1) webFlux webClient Test
 http://localhost:8080/webflux/client
