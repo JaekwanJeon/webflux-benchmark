@@ -49,10 +49,10 @@ http://localhost:8081/mvc
 
 ## 4. 검증
 
-### (1) webFlux webClient vs webMVC RestTemplate
 1000명의 유저로 동시 10개씩 전송시
 ![image](https://github.com/JaekwanJeon/webflux-benchmark/assets/3446997/42873f26-232d-4e4b-9256-ad49081a8426)
 
+### (1) webFlux webClient vs webMVC RestTemplate
 
 #### RestTemplate 
 Thread가 32개에서 223개로 상승하는 것을 확인할 수 있다.
